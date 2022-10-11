@@ -15,7 +15,7 @@ spec:
         app: my-app
     spec:
       containers:
-      - name: simple-api
-        image: <ECR_REPOSITORY>
+      - name: simple_kuber
+        image: kellyobende/simple_kuber
         ports:
         - containerPort: 80
